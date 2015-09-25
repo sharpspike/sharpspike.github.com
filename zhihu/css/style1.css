@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F1F5F8 url("../image/bg.zhihu.png");
+
+}
+
+.clear {
+    clear: both;
+}
+
+#top {
+    background: center 0 no-repeat #0078d8 url("../image/light.zhihu.png");
+    height: 360px;
+    box-shadow: inset 0 -1px 6px rgba(0, 0, 0, .1);
+}
+
+#top .content {
+    margin: auto;
+    width: 740px;
+    height: 365px;
+    position: relative;
+}
+
+#logo {
+    background-image: url("../image/logo.zhihu.png");
+    height: 124px;
+    width: 345px;
+    position: absolute;
+    top: 50%;
+    margin-top: -62px;
+}
+
+#bottom {
+    background: #fcc;
+    width: 740px;
+    margin: 50px auto;
+    height: 360px;
+}
+
+#photo {
+    display: block;
+    height: 360px;
+    width: 228px;
+}
+
+#footer {
+    background: #0078D8;
+    height: 41px;
+    padding-bottom: 60px;
+}
+
+#sign {
+    width: 202px;
+    margin: 38px 0;
+    float: right;
+    display: block;
+}
+
+#signin {
+    float: right;
+    color: #FFFFFF;
+    text-decoration: none; /*去掉下划线*/
+}
+
+.title {
+    -webkit-font-smoothing: subpixel-antialiased;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    height: 25px;
+    line-height: 1.7;
+}
+
+#bottom.content {
+    margin: 0 auto;
+    width: 740px;
+    height: 360px;
+}
+
+#name, #email, #pwd, #OK, #communicate {
+    -webkit-font-smoothing: subpixel-antialiased;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    height: 35px;
+    line-height: 1.7;
+    margin-top: 18px;
+    position: relative;
+    width: 202px;
+}
+
+.button {
+    background: none repeat scroll 0 0 #80C3F7;
+    border: 1px solid #1D80CF;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 1px rgba(50, 50, 50, 0.05);
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 15px;
+    line-height: 33px;
+    outline: 0 none;
+    padding: 0;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+input{
+    -webkit-appearance: none;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(231, 241, 248);
+    background-image: none;
+    background-origin: padding-box;
+    background-size: auto;
+    border-bottom-color: rgb(22, 114, 185);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    /*border-image-outset: 0px;*/
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(22, 114, 185);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(22, 114, 185);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(22, 114, 185);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-shadow: rgba(15, 82, 135, 0.247059) 0px 1px 2px 0px inset, rgba(255, 255, 255, 0.14902) 0px 1px 0px 0px;
+    color: rgb(85, 85, 85);
+    cursor: auto;
+    display: inline-block;
+    /*font-family: Arial;*/
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    height: 17px;
+    letter-spacing: normal;
+    line-height: 17px;
+    /*margin-bottom: 0px;*/
+    /*margin-left: 0px;*/
+    /*margin-right: 0px;*/
+    /*margin-top: 0px;*/
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    text-align: start;
+    /*text-indent: 0px;*/
+    text-rendering: auto;
+    text-shadow: none;
+    text-transform: none;
+    width: 180px;
+    /*word-spacing: 0px;*/
+    writing-mode: lr-tb;
+    -webkit-writing-mode: horizontal-tb;
+}
+#icon {
+    -webkit-font-smoothing: subpixel-antialiased;
+    background-image: url("../image/signup.zhihu.png");
+    background-position: -1px -1px;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    cursor: auto;
+    display: inline-block;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    height: 19px;
+    line-height: 1.7;
+    margin-left: 8px;
+    transition-delay: 0s;
+    transition-duration: 0.1s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    vertical-align: -5px;
+    width: 18px;
+}
+
+#communicate{
+    -webkit-font-smoothing: subpixel-antialiased;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    height: 25px;
+    line-height: 1.7;
+    margin-top: 18px;
+    width: 202px;
+}
+
+#bdwechat{
+    -webkit-font-smoothing: subpixel-antialiased;
+    color: rgb(255, 255, 255);
+    cursor: auto;
+    display: inline;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    height: auto;
+    line-height: 1.7;
+    text-decoration: none;
+    width: auto;
+}
+
+#icowechat{
+    -webkit-font-smoothing: subpixel-antialiased;
+    background-image: url(../image/icons.zhihu.png);
+    background-position: -67px -19px;
+    background-repeat: no-repeat;
+    background-size: 108px 93px;
+    color: rgb(255, 255, 255);
+    cursor: auto;
+    display: inline-block;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    height: 18px;
+    line-height: 1.7;
+    vertical-align: -4px;
+    width: 20px;
+}
+
+#bdweibo{
+    -webkit-font-smoothing: subpixel-antialiased;
+    color: rgb(255, 255, 255);
+    cursor: auto;
+    display: inline;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    height: auto;
+    line-height: 1.7;
+    margin-left: 5px;
+    text-decoration: none;
+    width: auto;
+}
+
+#icoweibo{
+    -webkit-font-smoothing: subpixel-antialiased;
+    background-image: url(../image/signup.zhihu.png);
+    background-position: -17px -1px;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    cursor: auto;
+    display: inline-block;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    height: 19px;
+    line-height: 1.7;
+    margin-right: 2px;
+    vertical-align: -4px;
+    width: 21px;
+}
+
+#userphoto{
+    display: block;
+    width: 62px;
+    height: 62px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
